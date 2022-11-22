@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ <title>Calculatorche</title>
+</head>
+<div class="digitron">
+ <div class="screen">
+  <h3 id="result">0</h3>
+ </div>
+ <div class="buttons">
+  <div class="buttons-row">
+   <div class="button-item" id="kvadrat" onclick="Kvadriraj()">x²</div>
+   <div class="button-item" id="koren" onclick="Korenuj()">√x</div>
+   <div class="button-item" id="clear" onclick="Ocisti()">C</div>
+   <div class="button-item" id="brisi" onclick="Brisanje()">⌫</div>
+  </div>
+  <div class="buttons-row">
+   <div class="button-item" id="broj7" onclick="Sedam()">7</div>
+   <div class="button-item" id="broj8" onclick="Osam()">8</div>
+   <div class="button-item" id="broj9" onclick="Devet()">9</div>
+   <div class="button-item">/</div>
+  </div>
+  <div class="buttons-row">
+   <div class="button-item" id="broj4" onclick="Cetiri()">4</div>
+   <div class="button-item" id="broj5" onclick="Pet()">5</div>
+   <div class="button-item" id="broj6" onclick="Sest()">6</div>
+   <div class="button-item" id="mnozi">*</div>
+  </div>
+  <div class="buttons-row">
+   <div class="button-item" id="broj1" onclick="Jedan()">1</div>
+   <div class="button-item" id="broj2" onclick="Dva()">2</div>
+   <div class="button-item" id="broj3" onclick="Tri()">3</div>
+   <div class="button-item" id="oduzmi">-</div>
+  </div>
+  <div class="buttons-row">
+   <div class="button-item" id="broj0" onclick="Nula()">0</div>
+   <div class="button-item" id="decimala" onclick="Decimala()">.</div>
+   <div class="button-item" id="racunaj" onclick="Racunaj()">=</div>
+   <div class="button-item" id="saberi">+</div>
+  </div>
+ </div>
+</div>
+
+<body>
+ <script src="script.js"></script>
+</body>
+
+</html>
